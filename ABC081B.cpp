@@ -8,8 +8,9 @@ int main()
 {
 	int n;
 	cin >> n;
-  	int a[n]={0},x=0;
-  	cin.ignore();
+	// int a[n]={0}で宣言するとnが大きすぎる場合や負の値で実行時エラーが発生する可能性がある
+	//
+  	int *a = new int[n],x=0;
 	string line,word;
 	getline(cin, line);
 	istringstream iss(line);
