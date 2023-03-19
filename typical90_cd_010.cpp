@@ -6,7 +6,8 @@ using namespace std;
 int main()
 {
     long long
-        l, i_l, i_result_l,
+        l,
+        i_l, i_result_l,
         r, i_r, i_result_r,
         ans = 0,
         divisor = pow(10, 9) + 7,

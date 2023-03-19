@@ -1,14 +1,16 @@
 // ABC086A - Product
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int a,b;
-    scanf("%d %d",&a,&b);
-    if( a%2 == 1 && b%2 == 1){
+  int a, b;
+  scanf("%d %d", &a, &b);
+  if (a % 2 == 1 && b % 2 == 1)
+  {
     printf("Odd");
-    }
-  	else{
+  }
+  else
+  {
     printf("Even");
-    }
-    return 0;
+  }
+  return 0;
 }
